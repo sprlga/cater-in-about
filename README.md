@@ -15,15 +15,13 @@ public/
   assets/               style.css, i18n.js (toggle bahasa), logo.svg
 ```
 
-## Wajib diganti sebelum deploy
-Placeholder berikut (ditandai kuning di halaman) masih harus diganti. Email kontak sudah diisi `support.catetin@gmail.com`.
+## Konten yang sudah diisi
+- Email kontak: `support.catetin@gmail.com`
+- Nama pengembang: `catet-in`
 
-| Placeholder | Dipakai di |
-|---|---|
-| `[NAMA_PENGEMBANG]` | semua halaman (footer), `public/privacy/index.html` |
-
+Tidak ada placeholder yang tersisa. Cek dengan:
 ```bash
-grep -rn "\[NAMA_PENGEMBANG\]" public
+grep -rn "\[[A-Z_]*\]" public
 ```
 
 ## Jalankan lokal
