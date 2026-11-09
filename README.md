@@ -16,15 +16,14 @@ public/
 ```
 
 ## Wajib diganti sebelum deploy
-Cari placeholder berikut (ditandai kuning di halaman) dan ganti:
+Placeholder berikut (ditandai kuning di halaman) masih harus diganti. Email kontak sudah diisi `support.catetin@gmail.com`.
 
 | Placeholder | Dipakai di |
 |---|---|
-| `[EMAIL_KONTAK]` | `public/index.html`, `public/privacy/index.html` |
 | `[NAMA_PENGEMBANG]` | semua halaman (footer), `public/privacy/index.html` |
 
 ```bash
-grep -rn "\[EMAIL_KONTAK\]\|\[NAMA_PENGEMBANG\]" public
+grep -rn "\[NAMA_PENGEMBANG\]" public
 ```
 
 ## Jalankan lokal
