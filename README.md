@@ -43,5 +43,5 @@ Link bahasa Inggris: `https://<domain>/privacy/?lang=en`.
 ## Catatan
 - Bahasa dipilih dari `?lang=id|en`, lalu pilihan tersimpan (localStorage), lalu bahasa browser; default Indonesia.
 - CSP hanya mengizinkan aset dari domain sendiri: jangan menambah skrip/CDN/font eksternal tanpa memperbarui `public/_headers`.
-- Isi privasi dan Data Safety mencerminkan app **v1.0** (tanpa permission, tanpa `INTERNET`, `allowBackup=false`).
+- Isi privasi dan Data Safety mencerminkan app **v1.0** (izin hanya `INTERNET`, dipakai untuk tab About/WebView; `allowBackup=false`).
   **Perbarui keduanya** bila menambah Play Billing (fitur Export/Import berbayar), analitik, crash reporting, atau permission baru.

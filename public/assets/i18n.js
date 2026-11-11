@@ -29,6 +29,10 @@
   }
 
   apply(initialLang());
+  // Skrip dimuat di <head>, jadi tombol belum ada saat apply() pertama; sinkronkan lagi setelah DOM siap.
+  document.addEventListener("DOMContentLoaded", function () {
+    apply(root.getAttribute("data-lang"));
+  });
 
   document.addEventListener("click", function (event) {
     var btn = event.target.closest("[data-set-lang]");
