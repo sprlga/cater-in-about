@@ -63,11 +63,7 @@ nav.main a:hover, nav.main a[aria-current="page"] { border-bottom-color: var(--a
 }
 .lang button[aria-pressed="true"] { background: var(--brand); color: #fff; }
 
-.hero { padding: 48px 0 24px; }
-.hero h1 { font-size: clamp(30px, 6vw, 44px); line-height: 1.15; margin: 0 0 12px; }
-.hero p.lead { font-size: 18px; color: var(--muted); max-width: 60ch; margin: 0 0 20px; }
-.badges { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
-.badges li { background: var(--accent-soft); color: var(--brand); padding: 6px 12px; border-radius: 999px; font-size: 14px; font-weight: 600; }
+.page-title { font-size: clamp(28px, 5vw, 38px); line-height: 1.2; margin: 36px 0 12px; }
 
 main h2 { font-size: 24px; margin: 40px 0 12px; }
 main h3 { font-size: 18px; margin: 24px 0 6px; }
